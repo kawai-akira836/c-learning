@@ -1,2 +1,3 @@
 # c-learning
-some training files
+some training scripts.
+used "スラスラわかるC++ 第二版" as a reference
