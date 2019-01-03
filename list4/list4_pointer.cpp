@@ -10,8 +10,9 @@ void sub (int *ptr) {
   cout << "sub関数:引数ptrが指し示す変数の値 = " << *ptr << endl;
 
   //引数に渡されたアドレスが指し示す変数に値を書き込む
-  *ptr = 456;
-  cout << "sub関数:引数ptrが際示す変数に書き込んだ値 = " << *ptr << endl;
+  cout << "sub関数:引数ptrが指し示す変数に書き込む値: ";
+  cin >> *ptr;
+  cout << "sub関数:引数ptrが指し示す変数に" << *ptr <<"を書き込みました"<< endl;
 
   // 戻り値を返さずに関数を終了する
   return;
