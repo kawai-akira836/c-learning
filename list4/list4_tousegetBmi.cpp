@@ -1,7 +1,7 @@
 #include <iostream>
+#include "chapter4.h"
 using namespace std;
 
-double getBmi(double height, double weight);
 
 int main(int argc, char const *argv[]) {
   double height;
